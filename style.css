@@ -1,0 +1,141 @@
+*,html,body
+{
+	padding: 0;
+	margin: 0;
+}
+
+.main-div{
+	width: 100%;
+	display: flex;
+	background-color:white ;
+	padding: 5px;
+	border: rgb(70, 181, 245) solid;
+}
+
+.First-div
+{
+    flex-basis: 40%;
+	background-color: rgb(70, 181, 245);
+    background-image: url(./images/birdlogo2.png);
+	background-size: 120%;
+    padding: 30px;
+	margin: 0px;
+	border-right:rgb(70, 181, 245) solid ;
+	box-shadow:rgb(70, 181, 245) 8px;
+}
+
+
+.Second-div
+{
+flex-basis: 8%;
+background-color: white;
+}
+
+
+.Third-div{
+	padding-left: 80px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+
+#check_password_btn
+{
+	width: 150px;
+	height: 35px;
+	color: dodgerblue ;
+	border-radius: 5px;
+	border-color:  white solid;
+	margin-left: 90px;
+	font-weight: bolder;
+}
+#Login_btn{
+	border-radius: 20px;
+	background-color: #24d6ea;
+	float: right;
+	margin-top: 0px;
+}
+
+#Login_btn2{
+	width: 80px;
+	height: 35px;
+	color: dodgerblue ;
+	border-radius: 20px;
+	border-color:  dodgerblue ;
+	font-weight: bolder;
+}
+
+#btn{
+	background-color:  rgb(38, 140, 235);
+	width: 55%;
+	height: 40px;
+	color: white;
+	border-radius: 50px;
+	font-weight: bolder;
+}
+
+#btn-out{
+	border-color:dodgerblue ;
+    width: 55%;
+    height: 40px;
+    border-radius: 20px;
+    color: dodgerblue ;
+	font-weight: bolder;
+}
+
+.input2
+{
+	width: 30%;
+	height: 35px;
+	border-top-color: rgb(250, 246, 246);
+	padding-bottom: 7px;
+	border-bottom: darkgray solid;
+	font-weight: bolder;
+	color: dimgrey;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.img1
+{
+	width: 40px;
+}
+
+.img2
+{
+	width: 60px;
+	height: 60px;
+	padding-top: 20px;
+}
+
+.intro
+{
+	align-content: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: white;
+	font-weight: bolder;
+}
+
+.links a
+{
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    font-size:30px;
+    font-weight: bolder;
+	list-style-type: none;
+}
+
+.links a:hover
+{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+	text-decoration: none;
+	
+	
+}
+
+
