@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Twitter Homepage.</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/5a9a035870.js" crossorigin="anonymous"></script>
     </head>
     <body>
         
@@ -13,24 +14,28 @@
             
             <!--First-div Begins-->
             <div class="First-div">
-                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br> <br><br> 
                 <ul class="links">
-                    <li class="intro" type="none"> 
+                    <p class="intro" style="margin-left: 45px;"> 
                         <a href="#">
-                            <img src="./images/search icon.jpg" class="img1">
-                            <font color="white" size="5px">Follow your interests.</font>
+                            <i class="fas fa-search"></i>
+                            Follow your interests.
+                        </a><br><br>
+                    </p><br>
+                    <p class="intro" style="margin-left: 45px;"> 
+                        <a href="#">
+                        <i class="fas fa-user-friends"></i>
+                            Hear what people are talking about.
                         </a>
-                    </li><br>
-                    <li class="intro"> <a href="#">
-                            <img src="./images/Peopleicon.png" class="img1">
-                            <font color="white" size="5">Hear what people are talking about.</font>
+                    </p><br><br>
+                    
+                    <p class="intro" style="margin-left: 45px;">
+                        <a href="#">
+                           <i class="far fa-comment-alt"></i>
+                            Join the conversation.
                         </a>
-                    </li>
-                    <li class="intro">
-                        <a href="#"><img src="./images/message icon.png" class="img1">
-                            <font color="white" size="5">Join the conversation.</font>
-                        </a>
-                    </li>
+                        
+                    </p>
                 </ul>
             </div>
             <!--First-div ends-->
@@ -43,23 +48,38 @@
 
             <!--Third-div Begins-->
             <div class="Third-div">
+                <form action="Register.php" method="POST">
+                    <input type="Phone, email or username" name="add" required="fill out this" placeholder="Phone, email or username"  class="input2">
+                    <input type="password" name="add" required="fill out this" placeholder="Password" class="input2">
+                    <input type="submit" value="Login" id="Login_btn2"><br><br>
+                    
+                    <button class="check_password_btn"> Forgot password ?</button>
+                </form>
                 
-                <input type="Phone, email or username" name="add" required="fill out this" placeholder="Phone, email or username"  class="input2">
-                <input type="password" name="add" required="fill out this" placeholder="password" class="input2">
-                <input type="submit" value="Login" id="Login_btn2"><br><br>
-                <input type="submit" value="Forgot password ?" id="check_password_btn"><br>
         
-
+                <i class="fab fa-twitter fa-3x"></i> 
                 <div>
-                    <img src="./images/birdlogo.png" class="img2">
                     <h1>See what's happening in the <br>World right now</h1><br><br>
                     <h2>Join Twitter today.</h2><br>
                     <input type="submit" value="Sign up" id="btn"><br><br>
                     <input type="submit" value="Sign in" id="btn-out">
-
                 </div>
             </div>
-            <!--Third-div ends--> 
+            <!--Third-div ends-->
+            
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <a href="#">Friends</a>
+                <a href="#">Messages</a>
+                <a href="#">Info</a>
+                <a href="#">Register</a>
+                <a href="#">About Us</a>
+                <a href="#">Know More</a>
+            </div> 
+            
         </div>
     </body>
 </html>
